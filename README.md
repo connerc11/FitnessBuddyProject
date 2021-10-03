@@ -30,9 +30,7 @@
   ## URL
 https://fitness-buddy-2.herokuapp.com/
   ## Questions
-  :alien: email me!<br />
-  <br />
-  :octocat: Find me on GitHub: [Cluce059](https://github.com/Cluce059)<br />
-  <br />
-  :speech_balloon: Email: Cluce059@gmail.com<br /><br />
-  _This README was generated with :heart: by [README-generator](https://github.com/Cluce059/readme-generator)  :eyes::eyes::eyes:_
+  * Feel free to reach out to my email: hello1234@gmail.com
+  * To see more of my work check out my github! The username is: connerc11
+  * Also click the link to have easy access to the Github! (https://github.com/connerc11)
+  # License
