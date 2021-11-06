@@ -22,7 +22,7 @@ async function signupFormHandler(event) {
               password,
               plan_id
           }),
-          headers: {'Content-Type': 'application/json'}
+          headers: {'Content-Type': 'application/json', 'Cross-Origin-Opener-Policy-Report-Only': 'same-origin'}
       });
       if (response.ok) {
           //alert('Account created! Logging you in now.');
