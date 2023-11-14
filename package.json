@@ -1,8 +1,10 @@
 {
+  "homepage": "https://connerc11.github.io/FitnessBuddyProject",
   "name": "fitness-buddy",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "publish": "gh-pages -d src",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -18,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/Cluce059/Fitness-Buddy/issues"
   },
-  "homepage": "https://github.com/Cluce059/Fitness-Buddy#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-session-sequelize": "^7.1.2",
@@ -27,6 +28,7 @@
     "express-handlebars": "^5.3.3",
     "express-session": "^1.17.2",
     "flickity": "^2.2.2",
+    "gh-pages": "^6.0.0",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
   },
