@@ -10,6 +10,7 @@ router.get('/', (req, res) => {
   })
     .then(dbPlanData => {
       const plan = dbPlanData.map(post => post.get({ plain: true }));
+            res.cookie('cookieName', ' cookieValue', {sameSite: 'none', secure: true})
            res.render('homepage', {
         plan,
          loggedIn: req.session.loggedIn

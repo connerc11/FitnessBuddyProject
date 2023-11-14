@@ -8,7 +8,7 @@ const app = express();
 const hbs = exphbs.create({});
 
 // init server
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 
 
@@ -28,7 +28,9 @@ const sess = {
       db: sequelize
     })
   };
-
+// sess.cookie.secure = true;
+// sess.cookie.sameSite = "none";
+// sess.cookie.simpleTest = "simpleTest"
   app.use(session(sess));
   app.engine('handlebars', hbs.engine);
   app.set('view engine', 'handlebars');
